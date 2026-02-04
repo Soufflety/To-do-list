@@ -84,3 +84,11 @@ padding: 10px;
 border-radius: 40%;}
 
 .btnexcl:hover {background-color: #ff6b6b;}
+
+.btncnclr {
+    background-color: #3ddc97;
+    border-radius: 40%;
+}
+
+.concluida {text-decoration: line-through;
+opacity: 0.6;}
