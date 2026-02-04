@@ -3,10 +3,7 @@ Este é um projeto simples feito utilizando HTML, CSS e JavaScript, com o objeti
 funcionalidades atuais: 
 -Criar tarefas
 -Excluir tarefas
-
-Funcionalidades futuras: 
--Modo escuro
--Concluir Tarefa
+-Botão para concluir tarefas
 
 Como utilizar?
 baixe o repositório e abra o arquivo index.html no navegador.
