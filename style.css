@@ -1,9 +1,9 @@
-body {background-color: #f2e39b;
+body {background-color: #0b132b;
 align-items: center;
 display: flex;
 justify-content: center;}
 
-#fundo {background-color: #f4a6b8;
+#fundo {background-color: #1c2541;
 width: 90%;
 height: 600px;
 border-radius: 5%;
@@ -12,36 +12,39 @@ justify-content: center;
 }
 
 #lista {
-    background-color: #f8d6df;
+    background-image: linear-gradient(#CBB27CFF, #FFDA8AFF, #F2E3C6FF);
     width: 40%;
     height: 500px;
     border-radius: 5%;
     position: absolute;
     top: 60px;
     right: 100px;
+    margin-left: 5px;
+    box-shadow: 0 8px 20px rgb(0,0,0,0.25);
 }
 
 h3 {
     font-family: "caveat-brush", cursive;
-    color: #3e2a5f;
+    color: #eaeaea;
 }
 
 form { 
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 70px;
+    margin: 5px;
   }
 input {margin: 5%;
 border-radius: 10%;
 width: 200px;
 height: 20px;
-background-color: antiquewhite;}
+background-color: #f4d58d;}
 
 form button { margin: 5%;
 position: absolute;
 left: 60px;
 border-radius: 20%;
-background-color: rgb(183, 183, 243);
+background-color: #5bc0be;
 width: 90px;
 height: 30px;
 font-family: "caveat-brush", cursive;
@@ -53,8 +56,9 @@ font-family: "caveat-brush", cursive;
   font-style: normal;
 }
 
-p { background-color: antiquewhite;
-  font-family: "caveat-brush", cursive;}
+form p {color: #a9c6d8;
+  font-family: "caveat-brush", cursive;
+ }
 
 button:hover {
     background-color: #3e2a5f;
@@ -67,11 +71,16 @@ button:hover {
     align-items: center;
     flex-direction: row;
 margin: 10px;
-padding: 10px;}
-
+padding: 10px;
+}
 .tarefcss p{margin: 0;
     flex: 1;
+    color:#2e4057;
+    border-radius: 5%;
+    font-family:"caveat-brush", cursive ;
 }
 
-.btnexcl {background-color: rgb(183, 183, 243);
+.btnexcl {background-color: #ef546f;
 border-radius: 40%;}
+
+.btnexcl:hover {background-color: #ff6b6b;}
