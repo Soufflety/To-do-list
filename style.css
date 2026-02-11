@@ -4,16 +4,19 @@ display: flex;
 justify-content: center;}
 
 #fundo {background-color: #1c2541;
-width: 90%;
+width: 70%;
 height: 600px;
 border-radius: 5%;
 display: flex;
 justify-content: center;
+gap: 5px;
+padding: 10px;
+position: relative;
 }
 
 #lista {
     background-image: linear-gradient(#CBB27CFF, #FFDA8AFF, #F2E3C6FF);
-    width: 40%;
+    width: 30%;
     height: 500px;
     border-radius: 5%;
     position: absolute;
@@ -92,3 +95,4 @@ border-radius: 40%;}
 
 .concluida {text-decoration: line-through;
 opacity: 0.6;}
+
